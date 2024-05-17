@@ -17,12 +17,14 @@ export const BodyHome = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 0rem 1.5rem;
+  /* animation: ${fadeIn} 2.5s ease-out; */
 
   @media only screen and (min-width: 1024px) {
     position: relative;
     width: 100%;
     height: 100%;
-    animation: ${fadeIn} 2.5s ease-out;
+    /* background-color: red; */
+    /* animation: ${fadeIn} 2.5s ease-out; */
     display: flex;
     flex-direction: row;
     padding: 0rem;

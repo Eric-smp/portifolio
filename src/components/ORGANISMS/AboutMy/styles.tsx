@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContentAboutMy = styled.div`
   width: 100%;
-  animation: aparecer 1s ease-out;
+  /* animation: aparecer 1s ease-out;
 
   @keyframes aparecer {
     from {
@@ -13,5 +13,5 @@ export const ContentAboutMy = styled.div`
       opacity: 1;
       transform: translateY(0);
     }
-  }
+  } */
 `;

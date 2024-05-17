@@ -18,8 +18,8 @@ export const FadeInH2 = styled.h2`
 
   &:hover {
     color: ${({ theme }) => theme.colors.azulClaro};
-    filter: drop-shadow(1px 1px 20px ${({ theme }) => theme.colors.azulClaro});
-    transition: 1s;
+    filter: drop-shadow(1px 1px 20px ${({ theme }) => theme.colors.blueShadow});
+    transition: 0.3s;
   }
   @keyframes fadeIn {
     from {
