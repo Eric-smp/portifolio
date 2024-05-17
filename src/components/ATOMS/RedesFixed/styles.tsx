@@ -21,7 +21,7 @@ export const ContentRede = styled.div`
     cursor: pointer;
     transition: transform 0.2s ease;
 
-    :hover {
+    &:hover {
       transform: translateY(-3px);
       color: #fff;
     }

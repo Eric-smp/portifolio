@@ -35,7 +35,8 @@ export const ContentInformationHome = styled.div`
       p {
         font-weight: 500;
         font-size: 1.1rem;
-        line-height: 1.5rem;
+        line-height: 1.8rem;
+        text-align: justify;
       }
     }
   }
@@ -73,6 +74,7 @@ export const ContentInformationHome = styled.div`
           font-weight: 500;
           font-size: 1.1rem;
           line-height: 1.5rem;
+          text-align: justify;
         }
       }
     }

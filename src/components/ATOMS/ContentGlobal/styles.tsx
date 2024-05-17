@@ -15,5 +15,7 @@ export const ContentGlobal = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    /* padding: ; */
   }
 `;
