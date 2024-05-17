@@ -15,6 +15,9 @@ export const WrapperHome = styled.div<TActionHome>`
   overflow-y: auto;
   overflow-x: hidden;
 
+
+ 
+
   background-color: ${({ theme }) => theme.colors.background};
   /* filter: ${({ modalOpen }) => (modalOpen ? "blur(8px)" : "none")}; */
 
@@ -30,16 +33,17 @@ export const WrapperContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 7rem;
+  top: 0rem;
   width: 100%;
   height: 100%;
   gap: 10rem;
   /* background-color: teal; */
   padding-bottom: 3rem;
+  overflow-y: hidden;
 
   div {
     opacity: 1;
-    transition: opacity 2s ease-in-out;
+    transition: opacity 3s ease-in-out;
 
     &.animate {
       display: flex;

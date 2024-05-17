@@ -10,6 +10,23 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: 0;
+  
+
+    ::-webkit-scrollbar {
+  width: 10px;    
+            
+}
+
+::-webkit-scrollbar-track {
+  background: ${({ theme }) => theme.colors.background};    
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: ${({ theme }) => theme.colors.blueDetails};    
+  border-radius: 20px;      
+
+  /* border: 3px solid orange;  */
+}
 }
 h1,h2,h3,h4,h5,h6,p,a{
     text-decoration: none;

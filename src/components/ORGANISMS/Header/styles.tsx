@@ -12,6 +12,15 @@ export const ElementHeader = styled.div`
   background-color: ${({ theme }) => theme.colors.background};
   z-index: 50;
 
+
+  h1{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 0.4rem;
+    cursor: none;
+  }
+
   h2 {
     display: flex;
     align-items: center;

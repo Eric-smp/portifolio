@@ -1,3 +1,4 @@
+// import Cypress from '@/assets/svg/cypress.svg'
 import { useEffect, useState } from "react";
 import {
   NavegationHeader,
@@ -29,10 +30,10 @@ export function Header() {
   }, []);
   return (
     <Styles.ElementHeader>
-      <h2>
-        <Styles.spanPerson>{setaRight}</Styles.spanPerson>
-        Eric Sampaio<Styles.spanPerson>{setaLeft}</Styles.spanPerson>
-      </h2>
+      <h1>
+        {/* <Cypress/> */}
+        Eric Sampaio
+      </h1>
       <div className="navHeader">
         <NavegationHeader />
       </div>

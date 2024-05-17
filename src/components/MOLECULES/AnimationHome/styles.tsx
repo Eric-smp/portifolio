@@ -4,7 +4,7 @@ export const AnimationsCss = styled.div`
   display: none;
 
   @media only screen and (min-width: 1024px) {
-    top: -10rem;
+    top: -8rem;
 
     display: flex;
     position: relative;
