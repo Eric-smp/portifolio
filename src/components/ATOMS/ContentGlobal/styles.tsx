@@ -11,10 +11,11 @@ export const ContentGlobal = styled.div`
   @media only screen and (min-width: 1024px) {
     width: 90%;
     height: 100%;
-
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 0rem;
+    margin: auto;
 
     /* padding: ; */
   }

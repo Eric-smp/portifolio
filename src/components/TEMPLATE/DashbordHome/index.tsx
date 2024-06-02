@@ -4,6 +4,7 @@ import {
   ContentHome,
   AboutMy,
   Ability,
+  ContentProjects
 } from "@/components";
 import * as Styles from "./styles";
 import { useGlobal } from "@/provider/Global";
@@ -29,23 +30,23 @@ export function DashbordHome() {
   return (
     <Styles.WrapperHome modalOpen={visibleModal}>
       <Header />
-
-      <div>
-        <Styles.WrapperContent>
-          <div
-            ref={refContentHome}
-            className={inViewContentHome ? "animate" : ""}
-          >
-            <ContentHome />
-          </div>
-          <div ref={refAboutMy} className={inViewAboutMy ? "animate" : ""}>
-            <AboutMy />
-          </div>
-          <div ref={refAbility} className={inViewAbility ? "animate" : ""}>
-            <Ability />
-          </div>
-        </Styles.WrapperContent>
-      </div>
+      <Styles.Componentes>
+        <div
+          ref={refContentHome}
+          className={inViewContentHome ? "animate" : ""}
+        >
+          <ContentHome />
+        </div>
+        <div ref={refAboutMy} className={inViewAboutMy ? "animate" : ""}>
+          <AboutMy />
+        </div>
+        {/* <div ref={refAbility} className={inViewAbility ? "animate" : ""}> */}
+          <Ability />
+        {/* </div> */}
+        {/* <div ref={refAbility} className={inViewAbility ? "animate" : ""}> */}
+          <ContentProjects />
+        {/* </div> */}
+      </Styles.Componentes>
 
       <RedesFixed />
     </Styles.WrapperHome>

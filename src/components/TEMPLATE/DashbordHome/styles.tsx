@@ -20,35 +20,32 @@ export const WrapperHome = styled.div<TActionHome>`
 
   background-color: ${({ theme }) => theme.colors.background};
   /* filter: ${({ modalOpen }) => (modalOpen ? "blur(8px)" : "none")}; */
-
-  .contentPage {
-    top: 8rem;
-    position: relative;
-    /* background-color: red; */
-  }
 `;
 
-export const WrapperContent = styled.div`
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  top: 0rem;
+
+
+export const Componentes = styled.div`
+  /* top: 0rem; */
   width: 100%;
   height: 100%;
-  gap: 10rem;
-  /* background-color: teal; */
-  padding-bottom: 3rem;
-  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
 
+  /* overflow-y: auto; */
+  gap: 15rem;
+  /* padding-top: 15rem; */
+/* background-color: teal;   */
+  
+  /* background-color: red; */
+  
   div {
     opacity: 1;
     transition: opacity 3s ease-in-out;
+    /* gap: 15rem; */
 
     &.animate {
       display: flex;
       justify-content: center;
-
       width: 100%;
       opacity: 0; // Inicia invisível
       animation: ${fadeIn} 1s ease-out forwards;
@@ -57,20 +54,18 @@ export const WrapperContent = styled.div`
 
   @media only screen and (min-width: 1024px) {
     position: relative;
-
     top: 15rem;
     width: 100%;
     height: 100%;
     gap: 15rem;
-    /* padding-bottom: 30rem; */
   }
+
   @media only screen and (min-width: 1600px) {
     position: relative;
-
     top: 21rem;
     width: 100%;
     height: 100%;
     gap: 20rem;
-    padding-bottom: 10rem;
+
   }
 `;

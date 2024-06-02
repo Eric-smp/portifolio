@@ -1,4 +1,15 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
 
 export const ContentAbility = styled.div`
   width: 100%;
@@ -6,6 +17,7 @@ export const ContentAbility = styled.div`
 
   display: flex;
   flex-direction: column;
+  align-items: center;
   /* background-color: teal; */
   gap: 2rem;
 
@@ -16,6 +28,19 @@ export const ContentAbility = styled.div`
   }
 
   .contentCard {
+    width: 100%;
+    justify-content: center;
     display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
   }
+
+  
+.contentCard > * {
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+
 `;
