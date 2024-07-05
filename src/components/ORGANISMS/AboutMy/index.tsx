@@ -10,7 +10,8 @@ export function AboutMy() {
       <Styles.ContentAboutMy>
         <DescriptionMy />
         <div className="contentImage">
-          <Image src='/myPhoto.jpg' alt={""}  width={400} height={400} style={{ borderRadius: '50%' }}/>
+          <div className="border"></div>
+          <Styles.ImagePerfil src='/myPhoto.png' alt={""}   style={{ borderRadius: '50%' }}/>
         </div>
       </Styles.ContentAboutMy>
     </ContentGlobal>

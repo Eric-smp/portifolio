@@ -9,6 +9,8 @@ import ReactIcon from '@/assets/svg/react.svg'
 import StylesComponents from '@/assets/svg/styledcomponents.svg'
 import Git from '@/assets/svg/git.svg'
 import GitHub from '@/assets/svg/github.svg'
+import GitLab from '@/assets/svg/gitlab.svg'
+import MuiMaterial from '@/assets/svg/mui.svg'
 import * as Styles from "./styles";
  type TCardAbility = {
       icon: JSX.Element;
@@ -18,15 +20,17 @@ import * as Styles from "./styles";
 export function Ability() {
 
   const cards = [
-    { icon: <Cypress />, title: "Cypress" },
-    { icon: <JavaScript />, title: "JavaScript" },
-    { icon: <TypeScript />, title: "TypeScript" },
     { icon: <HTML />, title: "HTML" },
     { icon: <CSS />, title: "CSS" },
+    { icon: <JavaScript />, title: "JavaScript" },
+    { icon: <TypeScript />, title: "TypeScript" },
     { icon: <ReactIcon />, title: "React" },
-    { icon: <StylesComponents />, title: "Styles Components" },
     { icon: <Git />, title: "Git" },
     { icon: <GitHub />, title: "GitHub" },
+    { icon: <GitLab />, title: "GitLab" },
+    { icon: <StylesComponents />, title: "Styles Components" },
+    { icon: <Cypress />, title: "Cypress" },
+    { icon: <MuiMaterial />, title: "MaterialUI" },
   ];
 
   return (

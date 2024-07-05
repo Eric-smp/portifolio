@@ -16,7 +16,7 @@ export const BodyHome = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0rem 1.5rem;
+  /* padding: 0rem 1.5rem; */
   /* animation: ${fadeIn} 2.5s ease-out; */
 
   @media only screen and (min-width: 1024px) {

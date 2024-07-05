@@ -30,11 +30,12 @@ export const Componentes = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-
+  gap: 12rem;
+position: relative;
   /* overflow-y: auto; */
-  gap: 15rem;
   /* padding-top: 15rem; */
 /* background-color: teal;   */
+top: 10rem;
   
   /* background-color: red; */
   

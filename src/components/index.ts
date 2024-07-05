@@ -18,3 +18,4 @@ export * from './ORGANISMS/AboutMy'
 export * from './ORGANISMS/Ability'
 //TEMPLATE
 export * from './TEMPLATE/DashbordHome'
+export * from './TEMPLATE/DashbordTeste'
